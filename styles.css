@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ffdd57;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Lista ordenada */
+ol {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+ol li {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+/* Tabla */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+td {
+    border: 2px solid #ffdd57;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Enlace */
+a {
+    color: #57ffdd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
